@@ -1,0 +1,12 @@
+# Ignore dataset and cache
+PlantVillage/
+PlantVillage_split/
+__pycache__/
+*.pyc
+
+# Ignore large model checkpoints except final model
+*.ckpt
+*.hdf5
+
+# But keep final saved model
+!plantvillage_multiclass_model.h5
